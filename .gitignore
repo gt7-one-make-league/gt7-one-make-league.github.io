@@ -1,0 +1,26 @@
+# Dependencies and build output
+node_modules
+dist
+.vite/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Local-only config and environment
+*.local
+.env
+.env.*
+
+# Editors and agent tooling
+.vscode/*
+!.vscode/extensions.json
+*.code-workspace
+.idea
+.claude/settings.local.json
+.playwright-mcp/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
