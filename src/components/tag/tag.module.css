@@ -1,0 +1,8 @@
+.tag {
+	padding: 6px 10px;
+	border-radius: var(--radius-sm);
+	background: var(--color-border-soft);
+	font-size: 14px;
+	font-weight: 600;
+	white-space: nowrap;
+}

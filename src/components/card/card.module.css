@@ -1,0 +1,17 @@
+.card {
+	display: flex;
+	min-width: 0;
+	padding: 24px;
+	border-radius: var(--radius-lg);
+	flex-direction: column;
+	gap: 14px;
+}
+
+.solid {
+	border: 1px solid var(--color-border);
+	background: var(--color-surface);
+}
+
+.dashed {
+	border: 2px dashed var(--color-border-dashed);
+}

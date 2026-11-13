@@ -1,0 +1,102 @@
+.strip {
+	background: var(--color-ink);
+	color: var(--color-on-dark);
+}
+
+.grid {
+	display: grid;
+	padding-block: 28px;
+	grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+	gap: 24px;
+}
+
+.panel {
+	display: flex;
+	min-width: 0;
+	padding: 20px;
+	flex-direction: column;
+	gap: 12px;
+	border-radius: var(--radius-lg);
+	background: var(--color-ink-raised);
+}
+
+.heading {
+	margin: 0;
+	font-family: var(--font-display);
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 1.2;
+}
+
+.qualifier {
+	color: var(--color-on-dark-muted);
+}
+
+/* Both cards share one scale: muted 14px for the left column, 16px for every value */
+.leaders,
+.facts {
+	display: grid;
+	margin: 0;
+	gap: 8px 16px;
+	font-size: 16px;
+	line-height: 1.4;
+}
+
+.leaders {
+	max-width: 360px;
+	padding: 0;
+	grid-template-columns: auto minmax(0, 1fr) auto;
+	list-style: none;
+}
+
+.leader {
+	display: grid;
+	grid-column: 1 / -1;
+	grid-template-columns: subgrid;
+}
+
+.position,
+.facts dt {
+	color: var(--color-on-dark-muted);
+	font-size: 14px;
+	font-weight: 600;
+	line-height: 1.6;
+}
+
+.position {
+	font-variant-numeric: tabular-nums;
+	text-align: right;
+}
+
+.driver {
+	overflow-wrap: anywhere;
+}
+
+.driver,
+.points,
+.facts dd {
+	color: var(--color-on-dark);
+	font-weight: 600;
+}
+
+.points {
+	font-variant-numeric: tabular-nums;
+	text-align: right;
+}
+
+.facts {
+	grid-template-columns: auto minmax(0, 1fr);
+}
+
+.facts dd {
+	margin: 0;
+}
+
+.line {
+	display: block;
+}
+
+.secondary {
+	color: var(--color-on-dark-muted);
+	font-weight: 400;
+}

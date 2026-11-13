@@ -1,0 +1,98 @@
+{
+	"points": [25, 20, 16, 13, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1],
+	"fastestLapBonus": 1,
+	"droppedResults": 6,
+	"plannedRounds": 18,
+	"raceTime": {"time": "19:30", "timeZone": "America/Los_Angeles"},
+	"weeks": [
+		{
+			"date": "2026-11-05",
+			"car": "Camaro SS '16",
+			"races": [
+				{"track": "Daytona Road Course", "resultsMissing": true},
+				{
+					"track": "Michelin Raceway Road Atlanta",
+					"result": {
+						"finish": ["Eddiewo", "Browilson", "slocussvt", "pglewis13", "Rollin-_-Stoney", "jrcmr03", "Deco_Dawg2", "theramjet53"],
+						"dnf": [],
+						"fastestLap": {"driver": "Eddiewo", "time": "1:28.694"}
+					}
+				},
+				{
+					"track": "Laguna Seca",
+					"result": {
+						"finish": ["Eddiewo", "Rollin-_-Stoney", "slocussvt", "Browilson", "pglewis13", "Deco_Dawg2", "theramjet53"],
+						"dnf": [],
+						"fastestLap": {"driver": "Eddiewo", "time": "1:32.372"}
+					}
+				}
+			]
+		},
+		{
+			"date": "2026-11-12",
+			"car": "GR3 DBR9 '10",
+			"races": [
+				{
+					"track": "High Speed Ring",
+					"result": {
+						"finish": ["Rollin-_-Stoney", "pglewis13", "Browilson", "Deco_Dawg2", "slocussvt", "theramjet53"],
+						"dnf": [],
+						"fastestLap": {"driver": "Browilson", "time": "1:11.424"}
+					}
+				},
+				{
+					"track": "Brands Hatch",
+					"result": {
+						"finish": ["Rollin-_-Stoney", "Browilson", "pglewis13", "slocussvt", "Deco_Dawg2", "OVC-94"],
+						"dnf": [],
+						"fastestLap": {"driver": "Browilson", "time": "1:25.609"}
+					}
+				},
+				{
+					"track": "Le Mans",
+					"result": {
+						"finish": ["willy--dot--com", "Browilson", "Deco_Dawg2", "pglewis13", "Rollin-_-Stoney", "OVC-94"],
+						"dnf": [],
+						"fastestLap": {"driver": "willy--dot--com", "time": "4:01.625"}
+					}
+				}
+			]
+		},
+		{
+			"date": "2026-11-19",
+			"car": "Honda Civic Gr A '97",
+			"races": [
+				{"track": "Yamagiwa-Miyabi"},
+				{"track": "SUGO International Racing Course"},
+				{"track": "Big Willow"}
+			]
+		},
+		{
+			"date": "2026-11-26",
+			"car": "S-2000 Amuse",
+			"races": [
+				{"track": "Autodrome Lago Maggiore"},
+				{"track": "Grand Valley Reverse"},
+				{"track": "Circuit de Sainte-Croix A"}
+			]
+		},
+		{
+			"date": "2026-12-03",
+			"car": "GR4 Nissan GTR",
+			"races": [
+				{"track": "Yas Marina Circuit"},
+				{"track": "Circuit de Spa-Francorchamps"},
+				{"track": "Circuit de Barcelona-Catalunya GP Layout No Chicane"}
+			]
+		},
+		{
+			"date": "2026-12-10",
+			"car": "GReddy Fugu Z",
+			"races": [
+				{"track": "Watkins Glen Short Course"},
+				{"track": "Autódromo de Interlagos"},
+				{"track": "Trial Mountain"}
+			]
+		}
+	]
+}

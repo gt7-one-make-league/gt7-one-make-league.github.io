@@ -1,0 +1,40 @@
+.layout {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-between;
+	gap: 8px 16px;
+}
+
+.label {
+	color: var(--color-muted);
+	font-size: 14px;
+	font-weight: 600;
+}
+
+.car {
+	margin: 2px 0 0;
+	font-weight: 700;
+}
+
+.when {
+	display: flex;
+	flex-direction: column;
+	gap: 2px;
+}
+
+.league-time {
+	color: var(--color-ink-soft);
+	font-weight: 600;
+}
+
+.local-time {
+	color: var(--color-muted);
+	font-size: 14px;
+}
+
+.tracks {
+	margin: 0;
+	color: var(--color-ink-soft);
+	font-size: 15px;
+}

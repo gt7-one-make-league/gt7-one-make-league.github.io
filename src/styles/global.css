@@ -1,0 +1,47 @@
+@import url("./variables.css");
+
+* {
+	box-sizing: border-box;
+}
+
+/* Anchor jumps land below the sticky header */
+html {
+	scroll-padding-top: calc(var(--header-height) + 16px);
+}
+
+body {
+	margin: 0;
+	background: var(--color-paper);
+	color: var(--color-ink);
+	font-family: var(--font-body);
+	font-size: 16px;
+	line-height: 1.5;
+
+	/* Barlow's standard ligatures join "--" into one long dash, which misprints PSN names like willy--dot--com */
+	font-variant-ligatures: no-common-ligatures;
+}
+
+a {
+	color: var(--color-link);
+}
+
+a:hover {
+	color: var(--color-link-hover);
+}
+
+/* Text for screen readers only */
+.visually-hidden {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	overflow: hidden;
+	clip-path: inset(50%);
+	white-space: nowrap;
+}
+
+/* Centered page column with responsive side gutters */
+.page-width {
+	max-width: var(--page-max-width);
+	margin: 0 auto;
+	padding-inline: var(--page-gutter);
+}

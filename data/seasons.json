@@ -1,0 +1,23 @@
+[
+	{
+		"id": "season-2",
+		"name": "Season 2",
+		"format": "A new car each week"
+	},
+	{
+		"id": "season-1",
+		"name": "Season 1",
+		"title": "Mazda Miata Challenge",
+		"format": "Tuned Mazda Miatas",
+		"external": {
+			"url": "https://mazda-miata-challenge.netlify.app/",
+			"rounds": 18,
+			"countedResults": 12,
+			"podium": [
+				{"driver": "Stoney-_-Drives", "points": 237},
+				{"driver": "XOnYourSixX", "points": 227},
+				{"driver": "Deco_Dawg2", "points": 198}
+			]
+		}
+	}
+]

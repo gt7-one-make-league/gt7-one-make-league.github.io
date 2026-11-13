@@ -1,0 +1,86 @@
+.header {
+	position: sticky;
+	z-index: 10;
+	top: 0;
+	height: var(--header-height);
+	border-top: 4px solid var(--color-accent);
+	background: var(--color-ink);
+	color: var(--color-on-dark);
+}
+
+.bar {
+	display: flex;
+	height: 100%;
+	align-items: center;
+	gap: 32px;
+}
+
+.brand {
+	display: flex;
+	min-width: var(--touch-target);
+	min-height: var(--touch-target);
+	align-items: center;
+	gap: 12px;
+	color: var(--color-on-dark);
+	text-decoration: none;
+}
+
+.brand:hover {
+	color: var(--color-on-dark);
+}
+
+.mark {
+	width: 32px;
+	height: 32px;
+	flex: none;
+	border-radius: var(--radius-sm);
+	fill: var(--color-accent);
+}
+
+.name {
+	font-family: var(--font-display);
+	font-size: 23px;
+	font-weight: 700;
+}
+
+.nav {
+	display: flex;
+	margin-left: auto;
+	gap: 24px;
+}
+
+.nav-link {
+	padding: 11px 0;
+	border-bottom: 2px solid transparent;
+	color: var(--color-on-dark);
+	font-weight: 600;
+	text-decoration: none;
+}
+
+/* Mouse only: on touch screens a tapped link would keep the underline while the header stays in view */
+@media (hover: hover) {
+	.nav-link:hover {
+		border-color: var(--color-accent);
+		color: var(--color-on-dark);
+	}
+}
+
+/* Phones keep the header to one row: the mark and the links. The page title right below names the league. */
+@media (width < 600px) {
+	.bar {
+		gap: 24px;
+	}
+
+	.name {
+		position: absolute;
+		width: 1px;
+		height: 1px;
+		overflow: hidden;
+		clip-path: inset(50%);
+		white-space: nowrap;
+	}
+
+	.nav {
+		gap: 16px;
+	}
+}

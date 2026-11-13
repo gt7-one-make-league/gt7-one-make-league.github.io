@@ -1,0 +1,25 @@
+.intro {
+	padding-block: 48px 40px;
+}
+
+.title {
+	margin: 0;
+	font-family: var(--font-display);
+	font-size: clamp(46px, 6vw, 80px);
+	font-weight: 800;
+	line-height: 0.95;
+	letter-spacing: -1px;
+}
+
+.rule {
+	width: 96px;
+	height: 6px;
+	margin: 18px 0;
+	background: var(--color-accent);
+}
+
+.schedule {
+	margin: 0;
+	color: var(--color-muted);
+	font-size: 15px;
+}

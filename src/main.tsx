@@ -1,5 +1,7 @@
 import {StrictMode} from "react";
 import {createRoot} from "react-dom/client";
+import {LandingPage} from "./pages/landing/landing-page.tsx";
+import "./styles/global.css";
 
 const appElement = document.getElementById("app");
 if (!appElement) {
@@ -8,6 +10,6 @@ if (!appElement) {
 
 createRoot(appElement).render(
 	<StrictMode>
-		<h1>GT7 One-Make League</h1>
+		<LandingPage />
 	</StrictMode>,
 );

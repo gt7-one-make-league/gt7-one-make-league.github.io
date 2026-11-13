@@ -1,0 +1,98 @@
+.section {
+	padding-block: 48px 24px;
+}
+
+.list {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 24px;
+}
+
+.season {
+	flex: 0 1 560px;
+}
+
+.season-name {
+	color: var(--color-muted);
+	font-size: 14px;
+	font-weight: 600;
+}
+
+.title {
+	margin: 2px 0 0;
+	font-family: var(--font-display);
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 1.1;
+}
+
+.format {
+	margin: 4px 0 0;
+	color: var(--color-ink-soft);
+}
+
+.podium {
+	display: flex;
+	margin: 0;
+	padding: 0;
+	flex-direction: column;
+	gap: 8px;
+	list-style: none;
+}
+
+.place {
+	display: flex;
+	min-height: var(--touch-target);
+	align-items: center;
+	gap: 14px;
+}
+
+.badge {
+	display: flex;
+	width: 36px;
+	height: 36px;
+	border-radius: 50%;
+	align-items: center;
+	justify-content: center;
+	color: var(--color-ink);
+	font-family: var(--font-display);
+	font-size: 20px;
+	font-weight: 800;
+}
+
+.first {
+	background: var(--color-accent);
+}
+
+.second {
+	background: var(--color-silver);
+}
+
+.third {
+	background: var(--color-bronze);
+}
+
+.driver {
+	min-width: 0;
+	flex: 1 1 auto;
+	font-weight: 600;
+	overflow-wrap: anywhere;
+}
+
+.points {
+	font-family: var(--font-display);
+	font-size: 22px;
+	font-weight: 700;
+}
+
+.note {
+	margin: 0;
+	color: var(--color-muted);
+	font-size: 14px;
+}
+
+.link {
+	padding: 10px 0;
+	align-self: flex-start;
+	font-weight: 600;
+}
