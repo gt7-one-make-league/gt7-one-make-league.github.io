@@ -9,7 +9,14 @@
 			"date": "2026-11-05",
 			"car": "Camaro SS '16",
 			"races": [
-				{"track": "Daytona Road Course", "resultsMissing": true},
+				{
+					"track": "Daytona Road Course",
+					"result": {
+						"finish": ["Eddiewo", "slocussvt", "Rollin-_-Stoney", "Browilson", "Deco_Dawg2", "pglewis13", "jrcmr03", "theramjet53", "Racersmolf", "ConcealedCarry76", "Lilru_21"],
+						"dnf": ["ConcealedCarry76", "Lilru_21"],
+						"fastestLap": {"driver": "Eddiewo"}
+					}
+				},
 				{
 					"track": "Michelin Raceway Road Atlanta",
 					"result": {
@@ -60,7 +67,7 @@
 		},
 		{
 			"date": "2026-11-19",
-			"car": "Honda Civic Gr A '97",
+			"car": "Honda Civic Gr A '87",
 			"races": [
 				{"track": "Yamagiwa-Miyabi"},
 				{"track": "SUGO International Racing Course"},

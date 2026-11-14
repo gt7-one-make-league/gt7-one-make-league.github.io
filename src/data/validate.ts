@@ -173,7 +173,7 @@ function checkResult(label: string, result: RaceResult, known: Set<string>): str
 	if (!result.finish.includes(result.fastestLap.driver)) {
 		problems.push(`${label}: fastest lap driver "${result.fastestLap.driver}" is not in the finishing order`);
 	}
-	if (!lapTimePattern.test(result.fastestLap.time)) {
+	if (result.fastestLap.time !== undefined && !lapTimePattern.test(result.fastestLap.time)) {
 		problems.push(`${label}: fastest lap time "${result.fastestLap.time}" should look like 1:23.456`);
 	}
 	return problems;

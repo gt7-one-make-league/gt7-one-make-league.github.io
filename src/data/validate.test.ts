@@ -58,6 +58,10 @@ describe("checkSeason", () => {
 		expect(problems([race({fastestLap: {driver: "A", time: "83.4"}})])).toEqual([expect.stringContaining('"83.4" should look like')]);
 	});
 
+	it("accepts a fastest lap without a time", () => {
+		expect(problems([race({fastestLap: {driver: "A"}})])).toEqual([]);
+	});
+
 	it("flags results after a race that has not been run", () => {
 		expect(problems([{track: "Next Track"}, race()])).toEqual([expect.stringContaining("earlier race is neither run")]);
 	});

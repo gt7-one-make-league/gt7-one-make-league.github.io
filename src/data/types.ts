@@ -1,6 +1,7 @@
 export interface FastestLap {
 	driver: string;
-	time: string;
+	// Left out when the results screens do not show it
+	time?: string;
 }
 
 export interface RaceResult {

@@ -67,7 +67,7 @@ function RaceEntry({season, round}: {season: SeasonData; round: Round}) {
 					<span className={styles.winner}>Winner <b>{result.finish[0]}</b></span>
 				</summary>
 				<p className={styles["fastest-lap"]}>
-					Fastest lap <b>{result.fastestLap.driver}</b>{dot}{result.fastestLap.time}{dot}+{pluralize(season.fastestLapBonus, "point")}
+					Fastest lap <b>{result.fastestLap.driver}</b>{result.fastestLap.time && <>{dot}{result.fastestLap.time}</>}{dot}+{pluralize(season.fastestLapBonus, "point")}
 				</p>
 				<ResultTable season={season} result={result} />
 			</details>
