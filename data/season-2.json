@@ -75,7 +75,7 @@
 			]
 		},
 		{
-			"date": "2026-11-26",
+			"date": "2026-12-03",
 			"car": "S-2000 Amuse",
 			"races": [
 				{"track": "Autodrome Lago Maggiore"},
@@ -84,7 +84,7 @@
 			]
 		},
 		{
-			"date": "2026-12-03",
+			"date": "2026-12-10",
 			"car": "GR4 Nissan GTR",
 			"races": [
 				{"track": "Yas Marina Circuit"},
@@ -93,7 +93,7 @@
 			]
 		},
 		{
-			"date": "2026-12-10",
+			"date": "2026-12-17",
 			"car": "GReddy Fugu Z",
 			"races": [
 				{"track": "Watkins Glen Short Course"},
