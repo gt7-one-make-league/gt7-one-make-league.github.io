@@ -69,9 +69,30 @@
 			"date": "2026-11-19",
 			"car": "Honda Civic Gr A '87",
 			"races": [
-				{"track": "Yamagiwa-Miyabi"},
-				{"track": "SUGO International Racing Course"},
-				{"track": "Big Willow"}
+				{
+					"track": "Yamagiwa-Miyabi",
+					"result": {
+						"finish": ["Browilson", "Rollin-_-Stoney", "OVC-94", "theramjet53", "slocussvt", "pglewis13", "jrcmr03", "ConcealedCarry76", "M-A-R-T_76", "yolkedup"],
+						"dnf": ["M-A-R-T_76", "yolkedup"],
+						"fastestLap": {"driver": "OVC-94", "time": "2:40.419"}
+					}
+				},
+				{
+					"track": "SUGO International Racing Course",
+					"result": {
+						"finish": ["Browilson", "Rollin-_-Stoney", "jrcmr03", "pglewis13", "slocussvt", "jeff9603_Honda", "theramjet53", "ConcealedCarry76"],
+						"dnf": ["ConcealedCarry76"],
+						"fastestLap": {"driver": "Rollin-_-Stoney", "time": "1:29.559"}
+					}
+				},
+				{
+					"track": "Big Willow",
+					"result": {
+						"finish": ["Browilson", "Rollin-_-Stoney", "OVC-94", "slocussvt", "pglewis13", "theramjet53", "jrcmr03"],
+						"dnf": [],
+						"fastestLap": {"driver": "slocussvt", "time": "1:21.280"}
+					}
+				}
 			]
 		},
 		{
